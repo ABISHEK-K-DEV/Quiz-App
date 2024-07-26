@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import io from 'socket.io-client';
 
-const socket = io("ws://localhost:5000");
+const socket = io("wss://quiz-app-mtzp.onrender.com");
 
 function App() {
   const [name, setName] = useState('');
